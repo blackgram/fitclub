@@ -66,7 +66,7 @@ function Exercises() {
               key={index}
               class={`flex flex-col  rounded-t-[10px] cursor-pointer bg-fit  ${
                 item.imageClass
-              } w-[170px] h-[321px] flex justify-end lg:h-[321px] lg:w-[180px] xl:w-[220px] lg:mx-[.5rem] lg:px-[15px] lg:py-[7px] transform transition-all hover:scale-110 xl:hover:scale-125 transition duration-[0.5s] ease ${
+              } w-[170px] h-[321px] flex justify-end lg:h-[321px] lg:w-[180px] xl:w-[220px] lg:mx-[.5rem] lg:px-[15px] lg:py-[7px] transform transition-all hover:scale-110 xl:hover:scale-110 transition duration-[0.5s] ease ${
                 isHovered ? "hover:justify-center hover:items-center" : ""
               }`}
               onMouseEnter={() => setIsHovered(true)}
