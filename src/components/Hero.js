@@ -56,7 +56,7 @@ const Hero = () => {
         <img
           src="/assets/pic1.png"
           alt=""
-          class="absolute left-0 top-[100px] w-[170px] md:top-[50px] md:left-[0px] md:w-[500px] lg:left-[-100px] lg:top-[50px] lg:w-[750px] lg:max-h-[10000px] xl:top-[20px] xl:left-[0] xl:w-[950px] xl:max-h-[250000px] "
+          class="absolute left-0 top-[100px] w-[170px] md:top-[50px] md:left-[-70px] md:w-[650px] lg:left-[0px] lg:top-[50px] lg:w-[650px] lg:max-h-[10000px] xl:top-[20px] xl:left-[0] xl:w-[950px] xl:max-h-[250000px] "
         />
         <img
           src="/assets/Group2.png"
