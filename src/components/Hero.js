@@ -20,11 +20,11 @@ const Hero = () => {
           </p>
         </div>
         <div class="flex mb-[30px]">
-          <div class="bg-greenish rounded-[5px] w-[100px] xl:w-[120px] lg:w-[100px] py-1 text-center mx-[10px]">
+          <div class="bg-greenish rounded-[5px] w-[100px] cursor-pointer xl:w-[120px] lg:w-[100px] py-1 text-center mx-[10px]">
             <a href="#a">Get Started</a>
           </div>
-          <div class="border rounded-[5px] border-greenish py-1 w-[100px] xl:w-[120px] lg:w-[100px]  text-center mx-[10px]">
-            <a href="#a">Learn More</a>
+          <div class="border rounded-[5px] cursor-pointer border-greenish py-1 w-[100px] xl:w-[120px] lg:w-[100px]  text-center mx-[10px]">
+            <a href="#a" className="cursor-pointer">Learn More</a>
           </div>
         </div>
         <div class="flex items-center justify-center text-center">
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <img src="/assets/pic1.png" alt="" class="absolute left-0 top-[100px] w-[170px] md:top-[50px] md:left-[-70px] md:w-[650px] lg:left-[-50px] lg:top-[50px] lg:w-[750px] lg:max-h-[10000px] xl:top-[20px] xl:left-[0] xl:w-[950px] xl:max-h-[250000px] " />
+      <img src="/assets/pic1.png" alt="" class="absolute left-0 top-[100px] w-[170px] md:top-[50px] md:left-[-70px] md:w-[650px] lg:left-[-100px] lg:top-[50px] lg:w-[750px] lg:max-h-[10000px] xl:top-[20px] xl:left-[0] xl:w-[950px] xl:max-h-[250000px] " />
       <img
         src="/assets/Group2.png"
         alt=""
